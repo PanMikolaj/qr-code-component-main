@@ -18,7 +18,6 @@ body{
     text-align: center;
     height: 90vh;
     max-width: 50vh;
-    max-height: 90vh;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -27,51 +26,45 @@ body{
     border-radius: 2em;
 }
 
-.image{
+img{
     width: 90%;
     height: 50%;
-    padding-top: 1em;
+    margin-top: 1.25em;
     border-radius: 1.5em;
 }
-img{
-    width: 100%;
-    border-radius: 1em;
-}
 
-.text{
+h1, p {
     width: 87%;
 }
-.text h2{
+
+h1{
     font-size: 1.85rem;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
     color: hsl(218, 44%, 22%);
 }
-.text p {
+
+.description{
     font-size: 1.35rem;
     color: hsl(220, 15%, 55%)
 }
 
-footer {
-    width: 87%;
+.footer {
     padding-bottom: 1em;
-
-}
-footer p{
     font-size: 0.75rem;
     color: hsl(220, 15%, 55%)
 }
-footer a{
+
+.footer a{
     color: hsl(218, 44%, 22%);  
 }
-footer a:hover{
+.footer a:hover{
+    font-size: 0.7rem;
     font-weight: bold;
 }
 
 @media (min-width: 750px){
     .container{
-        height: 65vh;
-        max-width: 40vh;
+        height: 64vh;
+        max-width: 37vh;
     }
     html{
         font-size: 1.5vh;
