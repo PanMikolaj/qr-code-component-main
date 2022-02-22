@@ -42,12 +42,13 @@ img{
     width: 87%;
 }
 .text h2{
-    font-size: 1.7rem;
-    margin-bottom: 1.5em;
+    font-size: 1.85rem;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
     color: hsl(218, 44%, 22%);
 }
 .text p {
-    font-size: 1.1rem;
+    font-size: 1.35rem;
     color: hsl(220, 15%, 55%)
 }
 
